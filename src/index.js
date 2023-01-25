@@ -12,7 +12,7 @@ server.use((req, res, next) =>{
 })
 
 server.use(router);
-server.use(middlewares);
+server.use(middlewares)
 
 server.listen(port, () =>{
     console.log('JSON Server is running')
